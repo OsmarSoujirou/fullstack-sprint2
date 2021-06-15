@@ -459,8 +459,8 @@ html input {
   display: flex;
 }
 
-.hide {
-  display: none;
+.legend_page {
+  visibility: hidden;
 }
 
 /*# sourceMappingURL=styles.css.map */
