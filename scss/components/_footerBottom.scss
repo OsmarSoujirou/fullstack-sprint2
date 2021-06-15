@@ -1,0 +1,23 @@
+// inicio bottom
+    .bottom {
+  
+      background-color: var(--cor-cinza-claro);
+      padding: 20px 0;
+    
+      &__copyright {
+        width: 83.333333%;
+    
+        &__text {
+          font-size: 0.5625rem;
+          font-weight: 400;
+          color: var(--cor-preto-med);
+        }
+  
+      }
+  
+      &__stamp {
+        margin: 0 auto;
+        width: 47px;
+      }
+  
+    } // fim bottom

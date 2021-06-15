@@ -1,0 +1,60 @@
+    // inicio payment
+    .payment {
+  
+        padding-top: 25px;
+        padding-bottom: 25px;
+    
+        display: flex;
+
+
+        
+        &__title {
+          text-transform: uppercase;
+          margin-bottom: 10px;
+        }
+    
+        &__alternatives {
+    
+          width: 50%;   
+    
+          .img {
+            margin: 2px;
+            width: auto;
+          }    
+        }
+    
+        &__social {
+    
+          flex-grow: 1;    
+    
+          &__icons {
+            display: flex;
+    
+            &__icon {
+              width: 50px;
+    
+              &__img {
+                display: block;
+                margin: auto;
+              }
+    
+              &__text {
+                padding-top: 4px;
+                font-size: 0.6875rem;
+                font-weight: 300;
+                text-align: center;
+              }
+    
+            }    
+          }    
+        }
+    
+        &__accessibility {
+          flex-grow: 1;   
+    
+          &__img {
+            width: 30px;
+          }
+    
+        }
+      }
