@@ -1,0 +1,37 @@
+@import "components/headerLogo", "components/headerSearch", "components/headerMenu", "components/headerDrawer";
+
+
+.header {
+
+    width: 100%;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--cor-cinza-claro);
+  
+    // .container
+    &__container {
+
+      margin: auto;
+      width: 95%;
+      max-width:container 1200px;   
+    }
+
+    // .mobile
+    &__mobile {
+      display: none;
+      margin-bottom: 25px;
+
+      @include for-phone-only {
+        display: flex;
+        align-items: center;
+      }
+
+    }
+
+    // .desktop
+    &__desktop {  
+      @include for-phone-only {
+        display: none;
+      }  
+    }
+}
+  

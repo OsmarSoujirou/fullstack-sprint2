@@ -1,0 +1,50 @@
+// breadcrumbs
+
+.breadcrumbs {
+
+    margin-bottom: 16px;
+
+    .breadcrumbs__list {
+
+      display: flex;
+
+      @include for-phone-only {
+        justify-content: center;
+      }
+
+      &__item {
+
+        font-size: 0.8125rem;
+        font-weight: 600;
+        color: var( --cor-cinza-escuro);
+  
+        @include for-phone-only {
+          display: none;
+        }
+    
+        &:not(:last-child):hover {
+          text-decoration: underline;
+        }
+  
+        &--active {
+          color: #261e1e;
+          @include for-phone-only {
+            display: block;
+            text-align: center;
+            font-size: 1.4375rem;
+            font-weight: 400;
+            text-transform: uppercase;
+  
+          }
+        }
+      }
+
+      .list__separator {
+        margin-left: 8px;
+        margin-right: 8px;
+        user-select: none;
+      }
+
+    }
+
+  }
